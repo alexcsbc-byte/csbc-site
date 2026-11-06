@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ЧДБК — Черкаський державний бізнес-коледж</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+<header class="hdr">
+  <div class="wrap hdr-row">
+    <a href="#" class="brand">
+      <img src="img/logo.png" alt="">
+      <span>Черкаський державний<br>бізнес-коледж</span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#about">Коледж</a>
+      <a href="#programs">Спеціальності</a>
+      <a href="#admission">Вступ</a>
+      <a href="#news">Новини</a>
+      <a href="#contacts">Контакти</a>
+    </nav>
+    <a href="#admission" class="hdr-cta">Вступ 2026</a>
+    <button class="toggle" id="toggle" aria-label="Меню"><i></i><i></i></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Черкаси · з 1966 року</p>
+      <h1>Тут вчаться рахувати, керувати й&nbsp;будувати свою справу.</h1>
+      <p class="lead">Фаховий передвищий коледж економіки, фінансів та IT. Вступ після 9 і 11 класу, денна та заочна форми.</p>
+      <div class="hero-links">
+        <a href="#programs" class="link-arrow">Обрати спеціальність</a>
+        <a href="tel:+380472641000" class="link-plain">(0472) 64-10-00</a>
+      </div>
+    </div>
+    <figure class="hero-img">
+      <img src="img/g2.jpg" alt="Студенти коледжу">
+      <figcaption>Студенти ЧДБК біля Кар'єрного центру</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="facts">
+  <div class="wrap facts-row">
+    <div><b data-to="1966">1966</b>рік заснування</div>
+    <div><b data-to="8">8</b>спеціальностей</div>
+    <div><b>9 / 11</b>клас — вступ</div>
+    <div><b data-to="2">2</b>форми навчання</div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">
+  <span>Облік і оподаткування</span><span>Фінанси та банківська справа</span><span>Менеджмент</span><span>Маркетинг</span><span>Економіка</span><span>Інженерія програмного забезпечення</span><span>Комп'ютерна інженерія</span><span>Англійська мова</span>
+</div></div>
+
+<section class="sec" id="about">
+  <div class="wrap two">
+    <h2 class="sec-title">Про коледж</h2>
+    <div class="prose">
+      <p>Черкаський державний бізнес-коледж готує фахівців для бізнесу, фінансового сектору та IT майже шістдесят років. За цей час через наші аудиторії пройшли тисячі бухгалтерів, економістів, менеджерів і програмістів, які працюють по всій Україні та за кордоном.</p>
+      <p>Ми поєднуємо практичне навчання з академічною мобільністю: студенти беруть участь у міжнародних проєктах, вивчають мови в Lingua Hub і проходять практику в компаніях-партнерах.</p>
+      <a href="#" class="link-arrow">Історія коледжу</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="programs">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="sec-title">Спеціальності</h2>
+      <div class="filters" id="filters">
+        <button class="on" data-f="all">Усі</button>
+        <button data-f="eco">Економіка</button>
+        <button data-f="it">IT</button>
+        <button data-f="hum">Гуманітарні</button>
+      </div>
+    </div>
+    <ol class="programs" id="programs-list">
+      <li data-c="eco"><span class="code">D1</span><span class="name">Облік і оподаткування</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="eco"><span class="code">D2</span><span class="name">Фінанси, банківська справа, страхування та фондовий ринок</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="eco"><span class="code">D3</span><span class="name">Менеджмент</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="eco"><span class="code">D5</span><span class="name">Маркетинг</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="eco"><span class="code">051</span><span class="name">Економіка</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="it"><span class="code">F2</span><span class="name">Інженерія програмного забезпечення</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="it"><span class="code">F7</span><span class="name">Комп'ютерна інженерія</span><span class="note">9 / 11 клас</span></li>
+      <li data-c="hum"><span class="code">B2</span><span class="name">Середня освіта (англійська мова)</span><span class="note">9 / 11 клас</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sec" id="admission">
+  <div class="wrap adm">
+    <div>
+      <h2 class="sec-title">Вступ 2026</h2>
+      <p class="lead">Чотири кроки, щоб стати студентом ЧДБК.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Оберіть спеціальність</h3><p>Перегляньте освітні програми та вартість навчання на 2026–2027 н.р.</p></li>
+      <li><h3>Зареєструйте кабінет</h3><p>Створіть електронний кабінет вступника та завантажте документи.</p></li>
+      <li><h3>Складіть вступні випробування</h3><p>Перелік конкурсних предметів — у правилах прийому.</p></li>
+      <li><h3>Слідкуйте за рейтингом</h3><p>Рейтингові списки публікуються на сайті приймальної комісії.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="gallery">
+  <img src="img/g1.jpg" alt="Розмовний клуб"><img src="img/g2.jpg" alt="Кар’єрний центр"><img src="img/g3.jpg" alt="Черкаси без бар’єрів"><img src="img/g4.jpg" alt="Виставка"><img src="img/g5.jpg" alt="Хелловін у коледжі">
+</section>
+
+<section class="sec" id="news">
+  <div class="wrap">
+    <h2 class="sec-title">Новини</h2>
+    <div class="news">
+      <article><time>03 листопада</time><h3>День відкритих дверей для абітурієнтів</h3><p>Запрошуємо майбутніх студентів і батьків познайомитися з коледжем та викладачами.</p></article>
+      <article><time>28 жовтня</time><h3>Студенти — призери обласної олімпіади з економіки</h3><p>Троє наших студентів увійшли до числа переможців.</p></article>
+      <article><time>20 жовтня</time><h3>Lingua Hub відкриває новий набір</h3><p>Розмовний клуб англійської мови збирається щосереди.</p></article>
+    </div>
+    <a href="http://csbc.edu.ua/" class="link-arrow">Усі новини на сайті коледжу</a>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="faq">
+  <div class="wrap two">
+    <h2 class="sec-title">Питання<br>вступників</h2>
+    <div class="faq">
+      <details><summary>Чи можна вступити після 9 класу?</summary><p>Так. Після 9 класу ви одночасно здобуваєте повну загальну середню освіту та професію.</p></details>
+      <details><summary>Чи є бюджетні місця?</summary><p>Так, коледж має місця регіонального замовлення. Обсяг на поточний рік публікує приймальна комісія.</p></details>
+      <details><summary>Чи надається гуртожиток?</summary><p>Іногороднім студентам надається місце в гуртожитку коледжу.</p></details>
+      <details><summary>Чи можна продовжити навчання в університеті?</summary><p>Так, випускники вступають до університетів-партнерів на скорочений термін навчання.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="map">
+  <iframe title="Карта" loading="lazy" src="https://www.google.com/maps?q=%D0%A7%D0%B5%D1%80%D0%BA%D0%B0%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%B8%D0%B9%20%D0%B1%D1%96%D0%B7%D0%BD%D0%B5%D1%81-%D0%BA%D0%BE%D0%BB%D0%B5%D0%B4%D0%B6&output=embed"></iframe>
+</section>
+
+<div class="lb" id="lb"><button class="lb-x" aria-label="Закрити">×</button><button class="lb-nav lb-prev">‹</button><img alt=""><button class="lb-nav lb-next">›</button><p class="lb-cap"></p></div>
+
+<footer class="ftr" id="contacts">
+  <div class="wrap ftr-grid">
+    <div>
+      <p class="ftr-big">Приходьте<br>знайомитися.</p>
+    </div>
+    <div>
+      <h4>Контакти</h4>
+      <p>м. Черкаси</p>
+      <p><a href="tel:+380472641000">(0472) 64-10-00</a></p>
+      <p><a href="mailto:public@csbc.edu.ua">public@csbc.edu.ua</a></p>
+    </div>
+    <div>
+      <h4>Корисне</h4>
+      <p><a href="http://csbc.edu.ua/">Офіційний сайт</a></p>
+      <p><a href="#admission">Приймальна комісія</a></p>
+      <p><a href="#programs">Спеціальності</a></p>
+    </div>
+  </div>
+  <div class="wrap ftr-bottom">© <span id="y"></span> Черкаський державний бізнес-коледж</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
